@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple tests">
+    <test name="VerifyHrManager">
+        <classes>
+            <class name="tests.verifyChiefTest"></class>
+        </classes>
+    </test>
+</suite>
