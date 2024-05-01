@@ -1,6 +1,5 @@
 package testNGPractice;
 
-import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -55,9 +54,5 @@ public class AnnotationsExample {
         System.out.println("Tearing down test environment.");
     }
 
-    @AfterSuite
-    public static void afterSuiteMethodTest(){
-        System.out.println("Cleaning up the suite environment.");
-    }
 
 }
