@@ -12,6 +12,7 @@ public class gitConflictTest {
     public void test2(){
         int a = 5;
         int b = 10;
-        System.out.println("Sum: " + (a + b));
+        System.out.println("Sum sum: " + (a + b));
+        System.out.println("forgot to update");
     }
 }
